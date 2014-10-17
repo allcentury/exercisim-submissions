@@ -1,0 +1,94 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'install', 'jasimine-node', '-g' ]
+2 info using npm@2.0.0
+3 info using node@v0.10.31
+4 verbose node symlink /usr/local/bin/node
+5 verbose cache add [ 'jasimine-node', null ]
+6 verbose cache add spec="jasimine-node" args=["jasimine-node",null]
+7 verbose parsed spec { raw: 'jasimine-node',
+7 verbose parsed spec   scope: null,
+7 verbose parsed spec   name: 'jasimine-node',
+7 verbose parsed spec   rawSpec: '',
+7 verbose parsed spec   spec: '*',
+7 verbose parsed spec   type: 'range' }
+8 verbose parsed spec { raw: 'jasimine-node',
+8 verbose parsed spec   scope: null,
+8 verbose parsed spec   name: 'jasimine-node',
+8 verbose parsed spec   rawSpec: '',
+8 verbose parsed spec   spec: '*',
+8 verbose parsed spec   type: 'range' }
+9 verbose addNamed [ 'jasimine-node', '*' ]
+10 verbose addNamed [ null, '*' ]
+11 silly lockFile 26c7393b-jasimine-node jasimine-node@*
+12 verbose lock jasimine-node@* /Users/anthonyross/.npm/26c7393b-jasimine-node.lock
+13 silly addNameRange { name: 'jasimine-node', range: '*', hasData: false }
+14 verbose mapToRegistry name jasimine-node
+15 verbose mapToRegistry uri https://registry.npmjs.org/jasimine-node
+16 verbose request on initialization, where is /jasimine-node
+17 verbose request after pass 1, where is /jasimine-node
+18 verbose request url raw /jasimine-node
+19 verbose request resolving registry [ 'https://registry.npmjs.org/', './jasimine-node' ]
+20 verbose request after pass 2, where is https://registry.npmjs.org/jasimine-node
+21 verbose request no auth needed
+22 info attempt registry request try #1 at 09:39:47
+23 verbose request id c0c8932115f63ef9
+24 http request GET https://registry.npmjs.org/jasimine-node
+25 http 404 https://registry.npmjs.org/jasimine-node
+26 verbose headers { date: 'Fri, 17 Oct 2014 13:39:45 GMT',
+26 verbose headers   server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+26 verbose headers   'content-type': 'application/json',
+26 verbose headers   'cache-control': 'max-age=0',
+26 verbose headers   'content-length': '52',
+26 verbose headers   'accept-ranges': 'bytes',
+26 verbose headers   via: '1.1 varnish',
+26 verbose headers   age: '0',
+26 verbose headers   'x-served-by': 'cache-jfk1035-JFK',
+26 verbose headers   'x-cache': 'MISS',
+26 verbose headers   'x-cache-hits': '0',
+26 verbose headers   'x-timer': 'S1413553185.067467,VS0,VE20',
+26 verbose headers   'keep-alive': 'timeout=10, max=50',
+26 verbose headers   connection: 'Keep-Alive' }
+27 silly registry.get cb [ 404,
+27 silly registry.get   { date: 'Fri, 17 Oct 2014 13:39:45 GMT',
+27 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+27 silly registry.get     'content-type': 'application/json',
+27 silly registry.get     'cache-control': 'max-age=0',
+27 silly registry.get     'content-length': '52',
+27 silly registry.get     'accept-ranges': 'bytes',
+27 silly registry.get     via: '1.1 varnish',
+27 silly registry.get     age: '0',
+27 silly registry.get     'x-served-by': 'cache-jfk1035-JFK',
+27 silly registry.get     'x-cache': 'MISS',
+27 silly registry.get     'x-cache-hits': '0',
+27 silly registry.get     'x-timer': 'S1413553185.067467,VS0,VE20',
+27 silly registry.get     'keep-alive': 'timeout=10, max=50',
+27 silly registry.get     connection: 'Keep-Alive' } ]
+28 silly lockFile 26c7393b-jasimine-node jasimine-node@*
+29 silly lockFile 26c7393b-jasimine-node jasimine-node@*
+30 verbose stack Error: 404 Not Found: jasimine-node
+30 verbose stack     at RegClient.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:259:14)
+30 verbose stack     at Request._callback (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:198:65)
+30 verbose stack     at Request.self.callback (/usr/local/lib/node_modules/npm/node_modules/request/request.js:236:22)
+30 verbose stack     at Request.emit (events.js:98:17)
+30 verbose stack     at Request.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/request/request.js:1142:14)
+30 verbose stack     at Request.emit (events.js:117:20)
+30 verbose stack     at IncomingMessage.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/request/request.js:1096:12)
+30 verbose stack     at IncomingMessage.emit (events.js:117:20)
+30 verbose stack     at _stream_readable.js:943:16
+30 verbose stack     at process._tickCallback (node.js:419:13)
+31 verbose statusCode 404
+32 verbose pkgid jasimine-node
+33 verbose cwd /Users/anthonyross/exercism/javascript/bob
+34 error Darwin 13.4.0
+35 error argv "node" "/usr/local/bin/npm" "install" "jasimine-node" "-g"
+36 error node v0.10.31
+37 error npm  v2.0.0
+38 error code E404
+39 error 404 Not Found: jasimine-node
+39 error 404
+39 error 404 'jasimine-node' is not in the npm registry.
+39 error 404 You should bug the author to publish it (or use the name yourself!)
+39 error 404
+39 error 404 Note that you can also install from a
+39 error 404 tarball, folder, http url, or git url.
+40 verbose exit [ 1, true ]
