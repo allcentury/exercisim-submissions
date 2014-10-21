@@ -1,16 +1,11 @@
 var words = function(input) {
   var wordArray = input.split(/\s/),
-      counts = {},
-      current;
-  for(var i = 0; i < wordArray.length; i++) {
-    current = wordArray[i];
+      counts = {};
 
-    if(counts[current]) {
-      counts[current] = counts[current] + 1;
-    } else {
-      counts[current] = 1;
-    }
-  }
+  wordArray.forEach(function(word) {
+    counts[word] = counts[word] ? counts[word]++  : 1;
+  });
+
   return counts;
 };
 

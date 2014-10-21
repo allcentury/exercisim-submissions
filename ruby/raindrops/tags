@@ -1,0 +1,26 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+Raindrops	raindrops.rb	/^class Raindrops$/;"	c
+RaindropsTest	raindrops_test.rb	/^class RaindropsTest < MiniTest::Unit::TestCase$/;"	c
+convert	raindrops.rb	/^  def self.convert(num)$/;"	F	class:Raindrops
+get_primes	raindrops.rb	/^  def get_primes(num)$/;"	f	class:Raindrops
+test_1	raindrops_test.rb	/^  def test_1$/;"	f	class:RaindropsTest
+test_10	raindrops_test.rb	/^  def test_10$/;"	f	class:RaindropsTest
+test_105	raindrops_test.rb	/^  def test_105$/;"	f	class:RaindropsTest
+test_12121	raindrops_test.rb	/^  def test_12121$/;"	f	class:RaindropsTest
+test_14	raindrops_test.rb	/^  def test_14$/;"	f	class:RaindropsTest
+test_15	raindrops_test.rb	/^  def test_15$/;"	f	class:RaindropsTest
+test_21	raindrops_test.rb	/^  def test_21$/;"	f	class:RaindropsTest
+test_25	raindrops_test.rb	/^  def test_25$/;"	f	class:RaindropsTest
+test_3	raindrops_test.rb	/^  def test_3$/;"	f	class:RaindropsTest
+test_35	raindrops_test.rb	/^  def test_35$/;"	f	class:RaindropsTest
+test_49	raindrops_test.rb	/^  def test_49$/;"	f	class:RaindropsTest
+test_5	raindrops_test.rb	/^  def test_5$/;"	f	class:RaindropsTest
+test_52	raindrops_test.rb	/^  def test_52$/;"	f	class:RaindropsTest
+test_6	raindrops_test.rb	/^  def test_6$/;"	f	class:RaindropsTest
+test_7	raindrops_test.rb	/^  def test_7$/;"	f	class:RaindropsTest
+test_9	raindrops_test.rb	/^  def test_9$/;"	f	class:RaindropsTest

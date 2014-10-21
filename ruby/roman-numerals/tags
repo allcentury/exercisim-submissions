@@ -1,0 +1,28 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+Fixnum	roman.rb	/^class Fixnum$/;"	c
+RomanTest	roman_numerals_test.rb	/^class RomanTest < MiniTest::Unit::TestCase$/;"	c
+roman_int	roman.rb	/^  def roman_int(val)$/;"	f	class:Fixnum
+test_1	roman_numerals_test.rb	/^  def test_1$/;"	f	class:RomanTest
+test_1024	roman_numerals_test.rb	/^  def test_1024$/;"	f	class:RomanTest
+test_141	roman_numerals_test.rb	/^  def test_141$/;"	f	class:RomanTest
+test_163	roman_numerals_test.rb	/^  def test_163$/;"	f	class:RomanTest
+test_2	roman_numerals_test.rb	/^  def test_2$/;"	f	class:RomanTest
+test_27	roman_numerals_test.rb	/^  def test_27$/;"	f	class:RomanTest
+test_3	roman_numerals_test.rb	/^  def test_3$/;"	f	class:RomanTest
+test_3000	roman_numerals_test.rb	/^  def test_3000$/;"	f	class:RomanTest
+test_4	roman_numerals_test.rb	/^  def test_4$/;"	f	class:RomanTest
+test_402	roman_numerals_test.rb	/^  def test_402$/;"	f	class:RomanTest
+test_48	roman_numerals_test.rb	/^  def test_48$/;"	f	class:RomanTest
+test_5	roman_numerals_test.rb	/^  def test_5$/;"	f	class:RomanTest
+test_575	roman_numerals_test.rb	/^  def test_575$/;"	f	class:RomanTest
+test_59	roman_numerals_test.rb	/^  def test_59$/;"	f	class:RomanTest
+test_6	roman_numerals_test.rb	/^  def test_6$/;"	f	class:RomanTest
+test_9	roman_numerals_test.rb	/^  def test_9$/;"	f	class:RomanTest
+test_911	roman_numerals_test.rb	/^  def test_911$/;"	f	class:RomanTest
+test_93	roman_numerals_test.rb	/^  def test_93$/;"	f	class:RomanTest
+to_roman	roman.rb	/^  def to_roman$/;"	f	class:Fixnum

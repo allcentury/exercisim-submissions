@@ -14,9 +14,16 @@ class Fixnum
         break
       end
     end
+    str = ""
     results.each_with_index do |val, i|
-      binding.pry
+      case i
+      when 0
+        str << tens(val)
+      when 1
+        str << roman_int(val)
+      end
     end
+    str
   end
 
   private
@@ -42,6 +49,11 @@ class Fixnum
     when 9
       return "IX"
     end
+  end
+
+  def tens(val)
+    roman = "X"
+    roman * (val / 10)
   end
 
 
