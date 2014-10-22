@@ -1,4 +1,3 @@
-require 'pry'
 class Binary
   def initialize(b_str)
     @b_str = b_str
