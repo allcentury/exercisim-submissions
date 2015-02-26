@@ -1,0 +1,18 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+Element	linked_list.rb	/^class Element$/;"	c
+LinkedListTest	simple_linked_list_test.rb	/^class LinkedListTest < MiniTest::Unit::TestCase$/;"	c
+initialize	linked_list.rb	/^  def initialize(datum, obj)$/;"	f	class:Element
+reverse	linked_list.rb	/^  def reverse$/;"	f	class:Element
+setup	simple_linked_list_test.rb	/^  def setup$/;"	f	class:LinkedListTest
+test_constructor	simple_linked_list_test.rb	/^  def test_constructor$/;"	f	class:LinkedListTest
+test_from_a	simple_linked_list_test.rb	/^  def test_from_a # rubocop:disable Metrics\/MethodLength$/;"	f	class:LinkedListTest
+test_reverse	simple_linked_list_test.rb	/^  def test_reverse$/;"	f	class:LinkedListTest
+test_roundtrip	simple_linked_list_test.rb	/^  def test_roundtrip$/;"	f	class:LinkedListTest
+test_to_a	simple_linked_list_test.rb	/^  def test_to_a$/;"	f	class:LinkedListTest
+to_a	linked_list.rb	/^  def self.to_a(obj)$/;"	F	class:Element
+to_a	linked_list.rb	/^  def to_a$/;"	f	class:Element
