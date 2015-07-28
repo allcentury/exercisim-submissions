@@ -1,0 +1,44 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+Scale	scale_generator.rb	/^class Scale$/;"	c
+ScaleGeneratorTest	scale_generator_test.rb	/^class ScaleGeneratorTest < Minitest::Test$/;"	c
+build_list_from_root	scale_generator.rb	/^    def build_list_from_root$/;"	f	class:Scale
+build_root	scale_generator.rb	/^  def build_root(str)$/;"	f	class:Scale
+build_scale	scale_generator.rb	/^  def build_scale$/;"	f	class:Scale
+chromatic	scale_generator.rb	/^  def chromatic$/;"	f	class:Scale
+dorian	scale_generator.rb	/^  def dorian$/;"	f	class:Scale
+initialize	scale_generator.rb	/^  def initialize(root, type, steps = nil)$/;"	f	class:Scale
+list_with_flats	scale_generator.rb	/^  def list_with_flats$/;"	f	class:Scale
+list_with_sharps	scale_generator.rb	/^  def list_with_sharps$/;"	f	class:Scale
+locrian	scale_generator.rb	/^  def locrian$/;"	f	class:Scale
+lydian	scale_generator.rb	/^  def lydian$/;"	f	class:Scale
+major	scale_generator.rb	/^  def major$/;"	f	class:Scale
+minor	scale_generator.rb	/^  def minor$/;"	f	class:Scale
+mixolydian	scale_generator.rb	/^  def mixolydian$/;"	f	class:Scale
+name	scale_generator.rb	/^  def name$/;"	f	class:Scale
+phyrgian	scale_generator.rb	/^  def phyrgian$/;"	f	class:Scale
+pitches	scale_generator.rb	/^  def pitches$/;"	f	class:Scale
+test_another_chromatic_scale	scale_generator_test.rb	/^  def test_another_chromatic_scale$/;"	f	class:ScaleGeneratorTest
+test_another_major_scale	scale_generator_test.rb	/^  def test_another_major_scale$/;"	f	class:ScaleGeneratorTest
+test_another_minor_scale	scale_generator_test.rb	/^  def test_another_minor_scale$/;"	f	class:ScaleGeneratorTest
+test_chromatic_scale	scale_generator_test.rb	/^  def test_chromatic_scale$/;"	f	class:ScaleGeneratorTest
+test_dorian_mode	scale_generator_test.rb	/^  def test_dorian_mode$/;"	f	class:ScaleGeneratorTest
+test_enigmatic	scale_generator_test.rb	/^  def test_enigmatic$/;"	f	class:ScaleGeneratorTest
+test_harmonic_minor	scale_generator_test.rb	/^  def test_harmonic_minor$/;"	f	class:ScaleGeneratorTest
+test_hexatonic	scale_generator_test.rb	/^  def test_hexatonic$/;"	f	class:ScaleGeneratorTest
+test_locrian_mode	scale_generator_test.rb	/^  def test_locrian_mode$/;"	f	class:ScaleGeneratorTest
+test_lydian_mode	scale_generator_test.rb	/^  def test_lydian_mode$/;"	f	class:ScaleGeneratorTest
+test_major_scale	scale_generator_test.rb	/^  def test_major_scale$/;"	f	class:ScaleGeneratorTest
+test_minor_scale	scale_generator_test.rb	/^  def test_minor_scale$/;"	f	class:ScaleGeneratorTest
+test_mixolydian_mode	scale_generator_test.rb	/^  def test_mixolydian_mode$/;"	f	class:ScaleGeneratorTest
+test_naming_major_scale	scale_generator_test.rb	/^  def test_naming_major_scale$/;"	f	class:ScaleGeneratorTest
+test_naming_scale	scale_generator_test.rb	/^  def test_naming_scale$/;"	f	class:ScaleGeneratorTest
+test_octatonic	scale_generator_test.rb	/^  def test_octatonic$/;"	f	class:ScaleGeneratorTest
+test_pentatonic	scale_generator_test.rb	/^  def test_pentatonic$/;"	f	class:ScaleGeneratorTest
+test_phrygian_mode	scale_generator_test.rb	/^  def test_phrygian_mode$/;"	f	class:ScaleGeneratorTest
+uses_flats?	scale_generator.rb	/^  def uses_flats?$/;"	f	class:Scale
+uses_sharps?	scale_generator.rb	/^  def uses_sharps?$/;"	f	class:Scale
