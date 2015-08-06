@@ -1,0 +1,18 @@
+class School(students: Map[Int, Seq[String]] = Map[Int, Seq[String]]()) {
+  def add(name: String, grade: Int) = {
+    class_room = students(grade)
+
+  }
+
+  def db: Map[Int, Seq[String]] = {
+    students
+  }
+
+  def grade(num: Int): Map[Int, Seq[String]] = {
+    students
+  }
+
+  def sorted: Map[Int, Seq[String]] = {
+    students
+  }
+}
